@@ -2,6 +2,7 @@ from django.contrib.syndication.views import Feed
 from django.urls import reverse
 from myblog.models import NewsItem
 
+
 class LatestEntriesFeed(Feed):
     title = "Police beat site news"
     link = "/sitenews/"

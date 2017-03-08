@@ -1,5 +1,9 @@
+from datetime import timezone
+
 from django.db import models
 from django.contrib.auth.models import User
+from transaction._transaction import Status
+
 
 class Post(models.Model):
     title = models.CharField(max_length=128)
@@ -15,6 +19,7 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+
 class Category(models.Model):
     name = models.CharField(max_length=128)
     description = models.TextField(blank=True)
@@ -29,3 +34,14 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class NewsItem(models.Model):
+    event_status = models.ForeignKey(Status)
+    event_title = models.CharField(max_length=50)
+    event_description = models.CharField(max_length=500)
+    date_active = models.DateField(default=timezone.now())
+    time_active = models.TimeField(default=timezone.now())
+
+    def __str__(self):
+        return self.event_title

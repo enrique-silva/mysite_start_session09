@@ -9,13 +9,16 @@ class LatestEntriesFeed(Feed):
     description = "Updates on changes and additions to police beat central."
 
     def items(self):
-        return NewsItem.objects.order_by('-pub_date')[:5]
+        return NewsItem.objects.order_by(NewsItem.event_date)[:5]
 
     def item_title(self, item):
         return NewsItem.event_title
 
     def item_description(self, item):
         return NewsItem.event_description
+
+    def item_text(self):
+        return NewsItem.text
 
     # item_link is only needed if NewsItem has no get_absolute_url method.
     def item_link(self, item):

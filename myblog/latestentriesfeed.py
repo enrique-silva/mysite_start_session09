@@ -1,6 +1,6 @@
 from django.contrib.syndication.views import Feed
 from django.urls import reverse
-from myblog.models import NewsItem
+from myblog.newsItem import NewsItem
 
 
 class LatestEntriesFeed(Feed):
@@ -12,10 +12,10 @@ class LatestEntriesFeed(Feed):
         return NewsItem.objects.order_by('-pub_date')[:5]
 
     def item_title(self, item):
-        return item.title
+        return NewsItem.event_title
 
     def item_description(self, item):
-        return item.description
+        return NewsItem.event_description
 
     # item_link is only needed if NewsItem has no get_absolute_url method.
     def item_link(self, item):

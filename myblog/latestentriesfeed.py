@@ -1,25 +1,25 @@
 from django.contrib.syndication.views import Feed
 from django.urls import reverse
-from myblog.newsItem import NewsItem
+from myblog.models import Post
 
 
 class LatestEntriesFeed(Feed):
-    title = "Police beat site news"
-    link = "/sitenews/"
-    description = "Updates on changes and additions to police beat central."
+    title = "Latest Posts"
+    link = "/feed/"
+    description = "The latest posts on the blog."
 
     def items(self):
-        return NewsItem.objects.order_by(NewsItem.event_date)[:5]
+        return Post.objects.order_by('-published_date')[:5]
 
     def item_title(self, item):
-        return NewsItem.event_title
+        return item.title
 
-    def item_description(self, item):
-        return NewsItem.event_description
+    def item_text(self, item):
+        return item.text
 
-    def item_text(self):
-        return NewsItem.text
+    def item_author(self, item):
+        return item.author
 
     # item_link is only needed if NewsItem has no get_absolute_url method.
-    def item_link(self, item):
-        return reverse('news-item', args=[item.pk])
+    def item_link(self, item, **kwargs):
+        return reverse('blog_detail', kwargs={'post_id': item.pk})

@@ -14,7 +14,6 @@ urlpatterns = [
         detail_view,
         name="blog_detail"),
 
-    url(r'^latest/feed/$', LatestEntriesFeed()),
-
+    url(r'^feed/$', LatestEntriesFeed()),
 
 ]

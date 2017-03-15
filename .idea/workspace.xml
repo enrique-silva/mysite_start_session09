@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3146be9-4e0b-439b-94db-9a3aced587dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/production.py" afterPath="$PROJECT_DIR$/mysite/production.py" />
     </list>
     <ignored path="mysite_start_session09.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,8 +102,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="526" />
-    <option name="y" value="104" />
+    <option name="x" value="327" />
+    <option name="y" value="108" />
     <option name="width" value="941" />
     <option name="height" value="638" />
   </component>
@@ -489,11 +488,17 @@
       <option name="project" value="LOCAL" />
       <updated>1489549995293</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding production.py">
+      <created>1489551224135</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1489551224135</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="526" y="104" width="941" height="638" extended-state="0" />
+    <frame x="327" y="108" width="941" height="638" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20616366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

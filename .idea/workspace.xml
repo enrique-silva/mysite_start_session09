@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3146be9-4e0b-439b-94db-9a3aced587dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysite/production.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/production.py" afterPath="$PROJECT_DIR$/mysite/production.py" />
     </list>
     <ignored path="mysite_start_session09.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/mysite/production.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.14591439">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -93,6 +93,7 @@
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/production.py" />
+        <option value="$PROJECT_DIR$/mysite/production.py" />
       </list>
     </option>
   </component>
@@ -102,8 +103,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="396" />
-    <option name="y" value="94" />
+    <option name="x" value="526" />
+    <option name="y" value="104" />
     <option name="width" value="941" />
     <option name="height" value="638" />
   </component>
@@ -482,14 +483,20 @@
       <option name="project" value="LOCAL" />
       <updated>1489548551318</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding production.py">
+      <created>1489549995293</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489549995293</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="94" width="941" height="638" extended-state="0" />
-    <editor active="false" />
+    <frame x="526" y="104" width="941" height="638" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20616366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20616366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -549,7 +556,8 @@
     <MESSAGE value="everything is updated and fixed the args&gt;&gt;kwargs issue that was making it not run.  it now forms an rss feed when /feed is added to the end of http://localhost:8000" />
     <MESSAGE value="prepping for aws deployment" />
     <MESSAGE value="fixing requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing requirements" />
+    <MESSAGE value="adding production.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding production.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -831,7 +839,7 @@
     <entry file="file://$PROJECT_DIR$/mysite/production.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14591439">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>

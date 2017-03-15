@@ -13,7 +13,6 @@ ptyprocess==0.5.1
 pyaml==16.12.2
 Pygments==2.2.0
 PyYAML==3.12
-setupfiles==0.0.0
 simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.3.2

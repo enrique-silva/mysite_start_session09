@@ -28,8 +28,8 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2495379">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.38817006">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -421,7 +421,13 @@
       <option name="project" value="LOCAL" />
       <updated>1489542753843</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fixing requirements">
+      <created>1489548488307</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1489548488307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -487,7 +493,8 @@
     <MESSAGE value="updates but not there" />
     <MESSAGE value="everything is updated and fixed the args&gt;&gt;kwargs issue that was making it not run.  it now forms an rss feed when /feed is added to the end of http://localhost:8000" />
     <MESSAGE value="prepping for aws deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepping for aws deployment" />
+    <MESSAGE value="fixing requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing requirements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -760,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2495379">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.38817006">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
